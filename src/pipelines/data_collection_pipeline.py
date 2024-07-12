@@ -9,7 +9,7 @@ cwd = './Dataset/'
 datasets = ['valid/', 'test/', 'train/']
 number_of_images = [10, 10, 30]
 
-# Call data collection functions
+# Call data collection functions 
 classes = {
     'Apple': [os.path.join(cwd, dataset, 'Apple') for dataset in datasets],
     'Artichoke': [os.path.join(cwd, dataset, 'Artichoke') for dataset in datasets],
